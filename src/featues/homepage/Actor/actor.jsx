@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import { mapState, mapDispatch } from '../../../core/maps';
 import Footer from '../Footer/footer';
+import LogoutButton from '../../../utils/logoutButton/logoutButton';
 
 class Actor extends Component {
     render() {
@@ -11,6 +12,7 @@ class Actor extends Component {
         if (block.length !== 0) {
             return (
                 <>
+                    <LogoutButton />
                     <div className="container">
                         <div className="row">
                             <div className="homepage_right-block">

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { NavLink, Redirect } from 'react-router-dom';
 import { mapState, mapDispatch } from '../../../core/maps';
 import Footer from '../Footer/footer';
+import LogoutButton from '../../../utils/logoutButton/logoutButton';
 
 class Editor extends Component {
     render() {
@@ -10,6 +11,7 @@ class Editor extends Component {
         if (block.length !== 0) {
             return (
                 <>
+                    <LogoutButton />
                     <div className="editor">
                         <div className="editor_block">
                             <h3 className="editor_block-title">Title</h3>

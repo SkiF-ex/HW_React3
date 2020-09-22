@@ -220,6 +220,12 @@ body {
     }
 }
 
+.logout-button {
+    @include button;
+    float: right;
+    margin-right: 3%;
+}
+
 .editor {
     display: flex;
     flex-direction: column;
@@ -227,7 +233,6 @@ body {
 
     &_block {
         display: flex;
-        //align-items: center;
         color: $white;
 
         &-title {

@@ -1041,6 +1041,21 @@ body {
     .loginReister_button:hover {
       background-color: #9e1313; }
 
+.logout-button {
+  background-color: #DD3333;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 31px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  float: right;
+  margin-right: 3%; }
+  .logout-button:hover {
+    background-color: #9e1313; }
+
 .editor {
   display: flex;
   flex-direction: column;

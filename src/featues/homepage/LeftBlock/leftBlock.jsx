@@ -3,11 +3,13 @@ import { connect } from 'react-redux';
 import { mapState, mapDispatch } from '../../../core/maps';
 import MiniMovieHTML from '../../movie/MiniMovieDescription/movieDescription';
 import Footer from '../Footer/footer';
+import LogoutButton from '../../../utils/logoutButton/logoutButton';
 
 class LeftBlockHTML extends Component {
     render() {
         return (
             <>
+                <LogoutButton />
                 <div className="container">
                     <div className="row">
                         <div className="homepage_left-block">
